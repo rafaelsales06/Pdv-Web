@@ -1,0 +1,130 @@
+  .Pdv{
+    color: #2484F4;
+  }
+  .box-pdv{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .navbar{
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 15px rgba(173, 173, 173, 0.486);
+    background-color: #ffffff;
+  }
+  .button-navbar{
+    color: #D523CE;
+    border: 1px solid #D523CE;
+    font-weight: bolder;
+    font-size: 1em;
+    
+    background-color: #ffffff;
+  }
+  .left-box{
+    width: 50%;
+  }
+  .search-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-input{
+    box-shadow: 6px 6px 15px rgba(173, 173, 173, 0.486);
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  .qtd-input{
+    box-shadow: 6px 6px 15px rgba(173, 173, 173, 0.486);
+    width: 15%;
+    height: 40px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  .cart-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .box-button{
+    display: flex;
+    gap: 20px;
+  }
+  .button-final{
+    width: 35px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px rgba(173, 173, 173, 0.486);
+  }
+  .cart-show{
+    width: 100%; 
+  }
+  .cart-show tr{
+    text-align: center;
+  }
+  .table-title{
+    text-align: center;
+  }
+  .cart-container{
+    width: 85%;
+    height: 600px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 15px rgba(173, 173, 173, 0.486);
+    overflow: auto;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #c1cef8;
+  }
+  
+  
+  .rigth-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 5px;
+  }
+  .credit-box{
+    box-shadow: 6px 6px 15px rgba(173, 173, 173, 0.486);
+    width: 600px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+  }
+  .values-payment{
+    width: 600px;
+  }
+  .buttons-day{
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    bottom: 15px;
+  }
+  .button-day{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #D523CE;
+  }
+  

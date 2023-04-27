@@ -1,0 +1,23 @@
+body{
+  background-color: #F5F6F9;
+}
+.navbar{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 6px 6px 15px rgba(173, 173, 173, 0.486);
+  background-color: #ffffff;
+}
+
+.button-navbar{
+  padding: 2px 5px;
+  color: #D523CE;
+  border: 1px solid #D523CE;
+  text-decoration: none;
+  font: bold 1em;
+  background-color: #ffffff;
+}
+
